@@ -1,6 +1,5 @@
 import RPi.GPIO as GPIO
 import time
-import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import image as mpimg
 from picamera import PiCamera
