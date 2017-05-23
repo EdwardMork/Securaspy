@@ -5,6 +5,8 @@ Some l33t code to record ding-dong ditchers at my house
 ## Motivation
 Ever get tired of people ding dong ditching your house? Now you can create a system that will record these little rascals so you can tell them to get off your lawn!
 
+Not only am I motivated by ding dong ditchers, but am also looking into digital image processing techniques. More specfically motion detection and tracking. 
+
 ## Materials
 
 * Raspberry Pi 3
@@ -14,6 +16,12 @@ Ever get tired of people ding dong ditching your house? Now you can create a sys
 * Jumper wires 
 
 ## Methodology
+There are two python files within this repository:  
+## sensor.py
+This python script makes use of a ultrasonic range finder in order to detect obstacles in the path. The ultrasonic was used to test the camera on a Raspberry Pi.
+Wiring for the ultrasonic range finder was completed using <a href="https://www.modmypi.com/image/data/tutorials/hc-sr04/hc-sr04-tut-2.png"> this </a> image.
 
-Circuits were completed using <a href="https://www.modmypi.com/image/data/tutorials/hc-sr04/hc-sr04-tut-2.png"> this </a> image.
+## motion.py
+Motion.py uses OpenCV to analyze frame by frame images for motion. It makes use of background subtractions and Guassian Blur to detect motion within an image. The code for this was inspired by an online tutorial <a href="http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/" > here</a>
+
 
