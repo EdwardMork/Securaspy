@@ -25,3 +25,19 @@ Wiring for the ultrasonic range finder was completed using <a href="https://www.
 Motion.py uses OpenCV to analyze frame by frame images for motion. It makes use of background subtractions and Guassian Blur to detect motion within an image. The code for this was inspired by an online tutorial <a href="http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/" > here</a>
 
 
+##Setup
+
+### Prerequisites
+
+In order to run the code one must have the following installed on their machine: 
+
+- Raspberry Pi
+- Python 2.7+ (Installed on Raspbian by default) 
+- OpenCV for Raspbian or other ARM OS
+- PiCamera library (Installed on Raspbian by default) 
+
+### Installing OpenCV for 
+
+The installation of OpenCV is not trivial in regard to the Raspbian OS. A useful tutorial I used was found at this link:
+<a href="https://tutorials-raspberrypi.com/installing-opencv-on-the-raspberry-pi/"> Install OpenCV for Raspberry Pi</a>
+
