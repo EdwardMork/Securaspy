@@ -38,5 +38,5 @@ In order to run the code one must have the following installed on their Pi:
 ### Installing OpenCV for 
 
 The installation of OpenCV is not trivial in regard to the Raspbian OS. A useful tutorial I used was found at this link:
-<a href="https://tutorials-raspberrypi.com/installing-opencv-on-the-raspberry-pi/"> Install OpenCV for Raspberry Pi</a>
+<a href="https://www.pyimagesearch.com/2015/07/27/installing-opencv-3-0-for-both-python-2-7-and-python-3-on-your-raspberry-pi-2/"> Install OpenCV for Raspberry Pi</a>
 
