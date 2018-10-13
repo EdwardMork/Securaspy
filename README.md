@@ -25,7 +25,7 @@ Wiring for the ultrasonic range finder was completed using <a href="https://www.
 Motion.py uses OpenCV to analyze frame by frame images for motion. It makes use of background subtractions and Guassian Blur to detect motion within an image. The code for this was inspired by an online tutorial <a href="http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/" > here</a>
 
 
-##Setup
+## Setup
 
 ### Prerequisites
 
