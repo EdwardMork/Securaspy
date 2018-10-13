@@ -29,9 +29,8 @@ Motion.py uses OpenCV to analyze frame by frame images for motion. It makes use 
 
 ### Prerequisites
 
-In order to run the code one must have the following installed on their machine: 
+In order to run the code one must have the following installed on their Pi: 
 
-- Raspberry Pi
 - Python 2.7+ (Installed on Raspbian by default) 
 - OpenCV for Raspbian or other ARM OS
 - PiCamera library (Installed on Raspbian by default) 
